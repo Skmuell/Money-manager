@@ -9,4 +9,4 @@ class User(Base):
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
     email = Column(String(255), unique=True, index=True, nullable=False)
     username = Column(String(40), unique=True, index=True, nullable=False)
-    password = Column(String(50), nullable=False)
+    password = Column(String, nullable=False)

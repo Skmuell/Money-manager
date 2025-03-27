@@ -1,0 +1,4 @@
+alembic 
+dynaconf 
+psycopg2-binary 
+sqlalchemy 
